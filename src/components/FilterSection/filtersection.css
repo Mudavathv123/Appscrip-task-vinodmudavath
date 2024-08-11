@@ -1,93 +1,106 @@
+@media (min-width:768px) {
 
-.select-item {
-    width: 200px;
-    height: 64px;
+    .select-item {
+        width: 200px;
+        height: 64px;
+    }
+
+    .filter-section-container {
+        display: block;
+        min-width: 300px;
+        height: 1, 018px;
+        top: 652px;
+        left: 96px;
+        gap: 24px;
+        opacity: 0px;
+    }
+
+    .select-lable {
+        display: flex;
+        flex-direction: column;
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+        text-align: left;
+        color: #252020;
+    }
+
+    .select-default-option {
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        color: #252020;
+    }
+
+    .option-label {
+        font-family: Simplon Norm;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        color: #252020;
+    }
+
+    .checkbox-input {
+        width: 18px;
+        height: 18px;
+        border: 0.75px 0px 0px 0px;
+    }
+
+    .select-lable-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .filter-list-container {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .active-option-container {
+        display: block;
+    }
+
+    .inactive-option-container {
+        display: none;
+    }
+
+    .option-input-conatiner {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .customizable-label {
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+        text-align: left;
+        color: #252020;
+    }
+
+    .customizable-checkbox {
+        width: 22px;
+        height: 22px;
+        border: 0.92px 0px 0px 0px;
+    }
+
+    .customizable-checkbox-container {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
 }
 
-.filter-section-container{
-    min-width: 300px;
-    height: 1,018px;
-    top: 652px;
-    left: 96px;
-    gap: 24px;
-    opacity: 0px;
-}
+@media (max-width:768px) {
 
-.select-lable {
-    display: flex;
-    flex-direction: column;
-    font-family: Simplon Norm;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21.6px;
-    text-align: left;
-    color: #252020;
-}
-
-.select-default-option {
-    font-family: Simplon Norm;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.6px;
-    text-align: left;
-    color: #252020;
-}
-
-.option-label{
-    font-family: Simplon Norm;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.2px;
-    text-align: left;
-    color: #252020;
-}
-.checkbox-input {
-    width: 18px;
-    height: 18px;
-    border: 0.75px 0px 0px 0px;
-}
-
-.select-lable-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.filter-list-container {
-    list-style-type: none;
-    padding-left: 0px;
-}
-
-.active-option-container {
-    display: block;
-}
-.inactive-option-container {
-    display:none;
-}
-
-.option-input-conatiner {
-    display: flex;
-    align-items: center;
-    gap:10px;
-}
-
-.customizable-label{
-    font-family: Simplon Norm;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21.6px;
-    text-align: left;
-    color: #252020;
-}
-
-.customizable-checkbox{
-    width: 22px;
-    height: 22px;
-    border: 0.92px 0px 0px 0px;
-}
-
-.customizable-checkbox-container {
-    display: flex;
-    align-items: center;
-    gap: 6px;
+    .filter-section-container {
+        display: none;
+    }
 }
