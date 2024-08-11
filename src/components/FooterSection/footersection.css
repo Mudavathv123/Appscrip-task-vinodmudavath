@@ -192,7 +192,6 @@
     .footer-section {
         min-width: 100vw;
         max-width: 100vw;
-        min-height: 800px;
         background-color: black;
         padding-top: 30px;
         padding: 20px;
@@ -303,7 +302,7 @@
 
     .list-container {
         list-style-type: none;
-        padding-left: 0px;
+        padding: 0px;
     }
 
     .list-container > div > li {

@@ -67,6 +67,10 @@
         color: #000000;
     } 
 
+    .menu-btn {
+        display: none;
+    }
+
 }
 
 @media (max-width:768px) {
