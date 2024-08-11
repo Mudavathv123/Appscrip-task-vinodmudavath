@@ -229,7 +229,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: start;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 6px;
         min-width: 343.75px;
@@ -334,12 +334,19 @@
 
     .filter-head-insmall {
         display: block;
-        font-family: Simplon Norm;
+        font-family: "Simplon Norm";
         font-size: 14px;
         font-weight: 700;
         line-height: 16.8px;
         text-align: left;
         color: #252020;
+        padding-left: 20px;
     } 
+
+    .verticle {
+        width: 2px;
+         height: 100px; 
+         transform: rotate(90deg);
+    }
 
 }
