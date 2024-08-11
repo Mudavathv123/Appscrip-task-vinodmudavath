@@ -1,0 +1,68 @@
+@media (min-width:768px) {
+
+    .discour-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .dicour-product-section-container {
+        min-width: 721px;
+        height: 168px;
+    }
+
+    .discour-product-head {
+        font-family: "Simplon Norm";
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #252020;
+    }
+
+    .discour-product-description {
+        font-family: "Simplon Norm";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: center;
+        color: #252020;
+    }
+
+}
+
+@media (max-width:768px) {
+
+
+
+    .discour-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .dicour-product-section-container {
+        width: 343px;
+        height: 127px;
+    }
+
+    .discour-product-head {
+        font-family: "Simplon Norm";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: center;
+        color: #252020;
+    }
+
+    .discour-product-description {
+        font-family: "Simplon Norm";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+        color: #252020;
+    }
+}

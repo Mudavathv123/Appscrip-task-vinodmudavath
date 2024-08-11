@@ -1,0 +1,345 @@
+@media (min-width:768px) {
+
+    .failure-view-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        min-height: 60vh;
+        min-width: 90vw;
+    }
+
+    .not-found-head {
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Roboto';
+        text-align-last: center;
+    }
+
+    .not-description {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Roboto";
+    }
+
+    .retry-btn {
+        height: 48px;
+        width: 120px;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        background-color: blue;
+        color: white;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .loading-view-container {
+        display: flex;
+        min-height: 60vh;
+        min-width: 90vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-list-containar {
+        list-style-type: none;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* product card styling below */
+
+    .product-img {
+        width: 300px;
+        height: 399px;
+    }
+
+    .product-item-container {
+        width: 300px;
+        min-height: 462px;
+    }
+
+    .product-title {
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+
+
+    }
+
+    .product-description {
+        font-family: Simplon Norm;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        color: #888792;
+
+    }
+
+    .singn-link {
+        font-family: Simplon Norm;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        color: #888792;
+    }
+
+    .product-description-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .select-container {
+        min-width: 148px;
+        height: 40px;
+        top: 556px;
+        border: none;
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: left;
+        color: #252020;
+        outline: none;
+    }
+
+    .option-tex {
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 400 !important;
+        line-height: 40px;
+        text-align: right;
+        color: #252020;
+        width: 235px;
+    }
+
+    .filter-header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .filter-products {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .filter-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: underline;
+        font-family: Adobe Caslon Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: right;
+        color: #888792;
+
+    }
+
+    .total-products-count {
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: left;
+        color: #252020;
+    }
+
+    .products-and-filter {
+        display: flex;
+        align-items: start;
+        gap: 60px;
+    }
+
+    .product-section-container {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 140px;
+    }
+
+    .filter-head-insmall {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+
+    .failure-view-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        min-height: 60vh;
+        min-width: 90vw;
+    }
+
+    .not-found-head {
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Roboto';
+        text-align-last: center;
+    }
+
+    .not-description {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Roboto";
+    }
+
+    .retry-btn {
+        height: 48px;
+        width: 120px;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        background-color: blue;
+        color: white;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .loading-view-container {
+        display: flex;
+        min-height: 60vh;
+        min-width: 90vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-list-containar {
+        list-style-type: none;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 6px;
+        min-width: 343.75px;
+    }
+
+    /* product card styling below */
+
+    .product-img {
+        width: 168px;
+        height: 224px;
+    }
+
+    .product-item-container {
+        width: 168px;
+        min-height: 277px;
+    }
+
+    .product-title {
+
+        font-family: Simplon Norm;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: left;
+        color: #252020;
+    }
+
+    .product-description {
+        font-family: Simplon Norm;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: left;
+        color: #888792;
+    }
+
+    .singn-link {
+        font-family: Simplon Norm;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: left;
+        color: #888792;
+    }
+
+    .product-description-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .select-container {
+        border: none;
+        color: #252020;
+        outline: none;
+        font-family: Simplon Norm;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: left;
+    }
+
+    .option-tex {
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 400 !important;
+        line-height: 40px;
+        text-align: right;
+        color: #252020;
+        width: 235px;
+    }
+
+    .filter-header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .filter-products {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .filter-btn {
+        display: none;
+    }
+
+    .total-products-count {
+        display: none;
+    }
+
+    .products-and-filter {
+        display: flex;
+        align-items: start;
+        gap: 60px;
+    }
+
+    .product-section-container {
+        margin-top: 60px;
+    }
+
+    .filter-head-insmall {
+        display: block;
+        font-family: Simplon Norm;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: left;
+        color: #252020;
+    } 
+
+}

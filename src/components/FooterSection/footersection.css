@@ -1,0 +1,403 @@
+@media (min-width:768px) {
+
+    .footer-section {
+        min-width: 1440px;
+        max-height: 750px;
+        background-color: black;
+        padding-top: 30px;
+        padding: 20px;
+    }
+
+    .footer-titles {
+        font-family: Simplon Norm;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        color: #ffffff;
+
+    }
+
+    .footer-desc {
+        font-family: Simplon Norm;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .contact-reference {
+        font-family: Simplon Norm;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.4px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .dolor-img {
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+    }
+
+    .dolor {
+        font-family: Simplon Norm;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.2px;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .email-input {
+        min-width: 350px;
+        min-height: 47px;
+        padding-left: 10px;
+        outline: none;
+        border: none;
+    }
+
+    .main-section-input-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .email-input::placeholder {
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        color: #BFC8CD;
+
+    }
+
+    .subscribe-btn {
+        width: 184px;
+        height: 48px;
+        border-radius: 5px;
+        border: 1.14px solid #FFFFFF;
+        background-color: transparent;
+        font-family: "Simplon Norm";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.6px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.3px;
+    }
+
+    .contact-us-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .list-container {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .list-container > div > li {
+        font-family: "Simplon Norm";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .list-title {
+        font-family: "Simplon Norm";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        color: #ffffff;
+
+    }
+
+    .footer-cards-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .social-icons {
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        border: 2px solid #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+
+    .card-img {
+        width: 56px;
+        height: 35px;
+        border-radius: 5px;
+    }
+
+    .social-list-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cards-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: start;
+    }
+
+    .follow-us-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .copy-right {
+        font-family: "Simplon Norm";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .insmall-line {
+        display: none;
+    }
+
+    .footer-arrow-icon {
+        display: none;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .footer-section {
+        width: 100vw;
+        min-height: 800px;
+        background-color: black;
+        padding-top: 30px;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .footer-titles {
+
+        font-family: "Simplon Norm";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.2px;
+        text-align: left;
+        color: #ffffff;
+
+    }
+
+    .footer-desc {
+        font-family: "Simplon Norm";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;        
+        color: #ffffff;
+    }
+
+    .contact-reference {
+        font-family: "Simplon Norm";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.4px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .dolor-img {
+        width: 20px;
+        height: 20px;
+        border-radius: 12px;
+        margin-right: 6px;
+    }
+
+    .dolor {
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        font-family: Simplon Norm;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: left;
+
+    }
+
+    .email-input {
+        padding-left: 10px;
+        outline: none;
+        border: none;
+        width: 226px;
+        height: 47px;
+
+    }
+
+    .main-section-input-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .email-input::placeholder {
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        color: #BFC8CD;
+
+    }
+
+    .subscribe-btn {
+        border-radius: 5px;
+        border: 1.14px solid #FFFFFF;
+        background-color: transparent;
+        font-family: Simplon Norm;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21.6px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.3px;
+        width: 109px;
+        height: 48px;
+        left: 234px;
+
+    }
+
+    .contact-us-section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+    }
+
+    .call-us-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .list-container {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .list-container > div > li {
+        font-family: "Simplon Norm";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        color: #ffffff;
+        padding-left: 10px;
+    }
+
+    .list-title {
+        font-family: Simplon Norm;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        color: #ffffff;
+
+    }
+
+    .footer-cards-section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .social-icons {
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        border: 2px solid #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+
+    .card-img {
+        width: 44px;
+        height: 30px;
+        border-radius: 4.55px;
+
+    }
+
+    .social-list-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cards-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: start;
+    }
+
+    .follow-us-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .copy-right {
+        font-family: Simplon Norm;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .title-container {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-arrow-icon {
+        color: #ffffff;
+    }
+
+    .inactive-muse {
+        display: none;
+    }
+
+    .active-muse {
+        display: block;
+    }
+
+}
